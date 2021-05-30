@@ -1,0 +1,14 @@
+{
+	"name": "Portifolio",
+	"description": "Portifolio criado com o intuito de compartilhar meus projetos e experiencias",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/JoaoVictorZz/Portifolio.git",
+	"author": "João Victor <joaovictordev207@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"autoprefixer": "^10.2.6",
+		"postcss": "^8.3.0",
+		"tailwindcss": "^2.1.2"
+	}
+}
