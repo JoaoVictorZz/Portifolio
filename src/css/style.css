@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+/*--------Buttons Menu--------*/
+.btnMenu {
+	padding: 8px;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	color: #cccccc;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: .4s ease;
+}
+
+.btnMenu::after {
+	content: '';
+	position: absolute;
+	background: #dc2626;
+	width: 20px;
+	height: 3px;
+	margin-top: 30px;
+	left:-0px;
+	opacity:0;
+	transition: .7s ease;
+}
+
+.btnMenu:hover {
+	transform: translate3d(0, -0px, 0);
+	color: #ffffff;
+}
+
+.btnMenu:hover::after {
+	width: 100%;
+	height: 3px;
+	transition: .4s ease;
+	opacity: 1;
+}
