@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url(
+	'https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap'
+);
+
+html {
+	scroll-behavior: smooth;
+}
 
 /*--------Buttons Menu--------*/
 .btnMenu {
 	padding: 8px;
+	margin: 0 10px 0 10px;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
 	color: #cccccc;
