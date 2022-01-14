@@ -11,16 +11,16 @@ html {
 	width: 8px;
 }
 ::-webkit-scrollbar-track {
-	background: #000; 
+	background: rgb(0, 0, 0); 
 }
 ::-webkit-scrollbar-thumb {
-	background: #dc2626; 
+	background: rgb(220, 38, 38); 
     border-radius: 999px;
 }
 
 /*--------Title Page--------*/
 .MainText {
-	color: #dc2626;
+	color: rgb(220, 38, 38);
 	font-size: 1.5rem;
 	line-height: 2rem;
 	padding: 0.75rem;
@@ -35,7 +35,7 @@ html {
 	margin: 0 10px 0 10px;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
-	color: #cccccc;
+	color: rgb(204, 204, 204);
 	text-decoration: none;
 	text-transform: capitalize;
 	transition: .4s ease;
@@ -44,7 +44,7 @@ html {
 .btnMenu::after {
 	content: '';
 	position: absolute;
-	background: #dc2626;
+	background: rgb(220, 38, 38);
 	width: 20px;
 	height: 3px;
 	margin-top: 30px;
@@ -55,10 +55,46 @@ html {
 
 .btnMenu:hover {
 	transform: translate3d(0, -0px, 0);
-	color: #ffffff;
+	color: rgb(255, 255, 255);
 }
 
 .btnMenu:hover::after {
+	width: 100%;
+	height: 3px;
+	transition: .4s ease;
+	opacity: 1;
+}
+
+/*--------Buttons For My GitHub--------*/
+.BtnForMyGithub {
+	padding: 8px;
+	margin: 1.5rem 0 1.5rem 0;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	color: rgb(209 213 219);	
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: .4s ease;
+}
+
+.BtnForMyGithub::after {
+	content: '';
+	position: absolute;
+	background: rgb(220, 40, 40);
+	width: 20px;
+	height: 3px;
+	margin-top: 35px;
+	left:-0px;
+	opacity:0;
+	transition: .7s ease;
+}
+
+.BtnForMyGithub:hover {
+	transform: translate3d(0, -0px, 0);
+	color: rgb(255, 255, 255);
+}
+
+.BtnForMyGithub:hover::after {
 	width: 100%;
 	height: 3px;
 	transition: .4s ease;
